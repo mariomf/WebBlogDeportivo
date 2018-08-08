@@ -1,0 +1,167 @@
+<!--<p style="color:red">text</p>-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="descripcion" content="Es mi primera pagina">
+	<!--Hace referencia a la carpeta de iconos-->
+	<link href="media\iconos\font-awesome\css\font-awesome.min.css" rel="stylesheet">
+	<title>Mi blog deportivo</title>
+	<!-- rel es el tipo (que es) -->
+	<link href="css\style.css" rel="stylesheet" type="text/css">
+	<!-- <style type="text/css">p{color:red;}</style> -->
+</head>
+<body class="main" id="main">
+	<!--Esto es la sección del menu-->
+	<nav class="nav-section" id="Hola">
+		<div class="container-menu">
+			<ul class="container-lista">
+				<li class="lista-item" id="item-inicio">
+					<a href="#">Inicio</a>
+				</li>
+				<li class="lista-item">
+					<a href="#">Contacto</a>
+				</li>
+				<li class="lista-item">
+					<a href="#">Videos</a>
+				</li>			
+			</ul>
+			<div class="serch">				
+				<input type="text" name="">
+				<div class="icon">
+					<i class="fa fa-search" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<header class="header-section">
+		<div class="container-header">
+			<div class="imagen-noticia-principal">
+				
+			</div>
+			<div class="texto-noticia-principal">
+				<h1>Hola mundo</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
+	</header>
+	<section class="section-deportes">
+		<div class="container-section">
+			<div class="container-deportes">
+				<div class="deportes-left">
+					<img src="media\imagenes\rugby-78193_640.jpg" alt="esta es una imagen de rugby">
+					<div class="deporte">
+						<h4 class="title-deporte">Rugby</h4>					
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>					
+				</div>
+				<div class="deportes-right">
+					<img src="media\imagenes\people-1284253_640.jpg" alt="esta es una imagen de Futball">
+					<div class="deporte">
+						<h4 class="title-deporte">Futball</h4>					
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>					
+				</div>
+				<div class="deportes-left">
+					<img src="media\imagenes\action-1851269_640.jpg" alt="esta es una imagen de Ciclismo">
+					<div class="deporte">
+						<h4 class="title-deporte">Ciclismo</h4>					
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>					
+				</div>
+			</div>
+		</div>		
+	</section>
+	<section class="section-contacto">
+		<div class="container-section-contacto">
+			<div class="conctacto-title">
+				<h2>Contactos</h2>
+			</div>
+		</div>
+		<div class="container-form">
+			<div class="contacto-form" name="contactoForm">
+				<form action="#" name="contactoForm" method="">
+					<div class="container-input">
+						<div class="input-item">
+							<!-- required es una validacion para que el espacio se llene -->
+							<input type="text" name="nombre"
+							id="nombre" placeholder="ingresa tu nombre *" required="required">
+						</div>
+						<div class="input-item">
+							<input type="email" name="email"
+							id="email" placeholder="Ingresa tu correo">
+						</div>
+						<div class="input-item">
+							<input type="number" name="telefono"
+							id="telefono" placeholder="ingersa tu telefono" disabled="disabled">
+						</div>
+						<div class="container-textarea">
+							<textarea class=""></textarea>
+						</div>
+						<div class="container-select">
+							<select name="curso" id="curso">
+								<option value="java">Java</option>
+								<option value="php">Php</option>
+								<option value="js">Js</option>
+							</select>
+						</div>
+						<div class="container-btn">
+							<button class="btn-submit" id="enviar">Enviar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer>
+      <div class="container-footer">
+        <div class="container-copy">
+          <span class="copyright">Copyright &copy;  2018</span>
+        </div>
+        <div class="container-icons">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_form_method_post
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_form_method

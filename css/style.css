@@ -1,0 +1,140 @@
+/*importar fuente*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+@import url('https://fonts.googleapis.com/css?family=Hanalei+Fill|Open+Sans:400,700,800');
+html{
+	color: #cecdcd;
+	/*color: #ED2939;*/
+	background: white;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Hanalei Fill', cursive;
+	font-size: 15px;
+}
+body{
+	margin: 0;
+}
+.nav-section{
+	background-color: #5f5869;
+}
+h1{
+	font-size: 3em;
+	text-align: left;
+}
+img{
+	max-width: 100%;
+}
+/*Wild card selector*/
+div[class*='container-']{
+	width: 100%;
+}
+/*punto para indicar que es clase-->*/
+/*.nav-section{
+	color: red;
+	background: blue;
+	font-family: 'Open Sans', sans-serif;	
+}*/
+/*Si quieres ser mas especifico agregas lo que es*/
+nav.nav-section{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;	
+}
+nav.nav-section ul{
+	padding-left: 0;
+	margin: 0;
+	display: inline-block;
+}
+/*Agara todos los elementos "" en la seccion .nav-section*/
+.nav-section li {
+	/*defines el tipo de estilo de la lista*/
+	list-style: none;
+	display: inline-block;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	padding: 20px 0px;
+}
+/*:: se usan para crear un pseudo elemento 
+para que cuanod pases el cursosr encima 
+el boton cambia de color*/
+.nav-section li:hover{
+	background-color: #3325b5;
+}
+.nav-section li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 20px 20px;
+}
+h4.title-lenguaje{
+	vertical-align: top;
+}
+.lenguajes{
+	width: 27%;
+	display: inline-block;
+	margin: 20px;
+	vertical-align: top;
+}
+.serch{
+	display: inline-block;
+    float: right;
+    padding: 20px;
+    position: relative;
+}
+div.icon{
+	display: inline-block;
+    position: absolute;
+    top: 20.5px;
+    color: black;
+    right: 24px;
+}
+div.serch input{
+	padding-right: 24px;
+}
+header{
+	position: relative;
+}
+.texto-noticia-principal p{
+	width: 68%;
+}
+.imagen-noticia-principal{
+	height: 585px;
+    width: 100%;
+    background-image: url(../media/imagenes/basketball-95607_1280.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+.texto-noticia-principal{
+	position: absolute;
+    bottom: 0px;
+    text-align: left;
+    background: #0000008c;
+    margin-bottom: 0;
+    padding: 1.5em;
+}
+.section-deportes{
+	width: 75%;
+}
+.deportes-left{
+	padding: 24px;
+    height: 330px;
+    margin-bottom: 10px;
+}
+.deportes-left .deporte{
+	width: 45%;
+    display: inline-block;
+    float: right;
+}
+
+.deportes-right{
+	padding: 24px;
+    height: 330px;
+    margin-bottom: 10px;
+}
+.deportes-right .deporte{
+	width: 45%;
+    display: inline-block;
+    float: left;
+}
+
+.deportes-right img{
+	width: 49%;
+}
